@@ -22,4 +22,9 @@ client.on('message', message => {
   }
 })
 
+const audienceClient = new Discord.Client()
+
+export { audienceClient }
+
+audienceClient.login('Nzk4NTg4MzExNTYzOTI3NjQy.X_3NUg.HEkss5_pPfQPIcBeTuncuAqOYqo')
 client.login('Nzk4NTQ1MjA0NDY5Njk0NTI0.X_2lLA.25SzKT__JYkDsZYfpVjzRfdbp5o')
